@@ -1,3 +1,4 @@
+"use strict";
 // Enemies our player must avoid
 var Enemy = function(x,y,speed) {
     this.x = x;
@@ -100,13 +101,13 @@ class Hero {
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
 
-const player = new Hero;
-const bug1 = new Enemy(-101,0,200);
-const bug2 = new Enemy(-101,83,400);
-const bug3 = new Enemy(-101*2,166,300);
-const bug4 = new Enemy(200,0,200);
-const allEnemies = [];
-allEnemies.push(bug1,bug2,bug3,bug4);
+const player = new Hero();
+const allEnemies = [
+    new Enemy(-101,0,200),
+    new Enemy(-101,83,400),
+    new Enemy(-101*2,166,300),
+    new Enemy(200,0,200)
+];
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
