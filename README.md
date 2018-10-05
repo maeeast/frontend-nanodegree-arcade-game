@@ -5,6 +5,12 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
+File Structure
+========
+Customizations for hero and enemy placement, speed, and movement are made in js/app.js
+The game loading is run through js/engine.js (If you want to switch out images make sure you load them on line 189)
+
+
 Game Play
 ========
 Move our super hero through the field of men blocking her way to get to the river.
