@@ -10,6 +10,8 @@ File Structure
 Customizations for hero and enemy placement, speed, and movement are made in js/app.js
 The game loading is run through js/engine.js (If you want to switch out images make sure you load them on line 189)
 
+To run the game locally download/clone the repository and open index.html in browser.
+
 
 Game Play
 ========
@@ -20,3 +22,5 @@ Arrow keys move the super hero.
 Collisions with the enemy will send you back to start.
 
 Touch the river and you win!
+
+Try it out: https://maeeast.github.io/frontend-nanodegree-arcade-game/
